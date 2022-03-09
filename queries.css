@@ -1,0 +1,164 @@
+@media (max-width: 1380px){
+
+  .lorem{
+    font-size: 18px;
+  }
+
+  .organic{
+    font-size: 12px;
+    }
+
+  }
+
+  .btn{
+    font-size: 18px;
+    padding: 13px 142px;
+  }
+}
+
+@media(max-width: 1300px){
+
+  .link{
+    font-size: 10px;
+  }
+}
+
+@media(max-width: 1150px){
+
+  .link{
+    font-size: 12px;
+  }
+
+  .lorem{
+    font-size: 15px;
+  }
+
+  .main-text{
+    font-size: 13px;
+  }
+
+  .btn{
+    font-size: 14px;
+    padding: 15px 111px;
+
+  }
+
+  .secondary-text{
+    font-size: 13px;
+  }
+
+}
+
+@media(max-width: 1050px){
+
+  .product-header{
+    grid-template-columns: 1.5fr 2fr;
+  }
+}
+
+
+
+@media(max-width: 765px){
+
+    .link{
+      font-size: 13px;
+    }
+
+    h1{
+      font-size: 25px;
+    }
+
+    .lorem{
+      font-size: 17px;
+      font-weight: 400;
+    }
+
+    .btn{
+      font-size: 14px;
+      padding: 16px 89px;
+
+    }
+
+    .organic{
+      font-size: 12px;
+    }
+
+    h1{
+      font-size: 19px;
+    }
+
+    .nuturishment{
+      font-size: 16px;
+    }
+}
+
+@media(max-width: 700px){
+
+  .product-header{
+    grid-template-columns: 1fr;
+  }
+
+  h1, .nuturishment, .link{
+    text-align: center;
+  }
+}
+
+@media(max-width: 515px){
+
+  .link{
+    font-size: 16px;
+  }
+
+  h1{
+    font-size: 22px;
+  }
+
+  .nuturishment{
+    font-size: 18px;
+  }
+
+  .organic{
+    font-size: 14px;
+  }
+
+  .lorem{
+    font-size: 15px;
+  }
+
+  .btn{
+    font-size: 17px;
+    /* padding: 15px 111px; */
+  }
+}
+
+@media(max-width: 415px){
+
+  .link{
+    font-size: 14px;
+  }
+
+  .organic{
+    font-size: 8px;
+  }
+
+  .btn{
+    font-size: 15px;
+  }
+
+  .lorem{
+    font-size: 15px;
+    text-align: center;
+  }
+
+}
+
+@media(max-width: 362px){
+  .btn{
+    font-size: 12px;
+    padding: 8px 80px;
+  }
+
+  .creams p{
+    font-size: 19px;
+  }
+}

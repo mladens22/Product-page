@@ -1,0 +1,237 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Lato',sans-serif;
+
+}
+
+/*header part */
+
+.product-header{
+display: grid;
+grid-template-columns: 1.5fr 1fr;
+width: auto;
+
+}
+
+/*second part of grid*/
+.all-products{
+  margin: 0 auto;
+  padding: 40px 45px;
+  /* background-color: #e5e5e5; */
+  background-color: #F3F3F4;
+
+}
+
+a{
+    text-decoration: none;
+    color: #4d4d4d;
+
+}
+
+/*Main image of header*/
+.img{
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  margin-top: 80px;
+  color: #4d4d4d;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.nuturishment{
+  margin: 10px 0;
+  color: #4d4d4d;
+  text-transform: uppercase;
+
+}
+
+hr{
+  border: none;
+  height: 2px;
+  background-color: #ccc;
+}
+
+.lorem-text{
+  margin: 50px 0 20px 0;
+
+}
+
+.organic{
+  color: #948282;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 6px;
+
+}
+
+.creams{
+  padding: 60px;
+  text-align: center;
+}
+
+.icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  padding: 25px;
+  gap: 25px 25px;
+  color: #9f938b;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.icon-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+/*button*/
+.btn{
+  background-color: #BFABAB;
+  border:none;
+  font-size: 15px;
+  padding: 13px 142px;
+  color:#4D4D4D;
+}
+
+/*centered text on middle of page*/
+.creams p{
+  font-size: 28px;
+}
+
+/*icons part*/
+.img2{
+  height: 37px;
+  width: 37px;
+}
+
+/*Texts for pictures in slider*/
+.main-text{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 8px;
+}
+
+.second-text{
+  font-size: 16px;
+  font-weight: lighter;
+  margin-top: 13px;
+}
+
+.prize{
+  font-size: 18px;
+  margin: 20px 0 55px 0;
+}
+
+
+/* slider section */
+
+.products-creams {
+  position: relative;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.product-category {
+  padding: 0 10vw;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.product-container {
+  padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  margin-bottom: 40px;
+}
+
+.product-container::-webkit-scrollbar {
+  display: none;
+}
+
+.product-card {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 450px;
+  margin-right: 40px;
+}
+
+/*div*/
+.product-image {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.product-card:hover {
+  opacity: 1;
+}
+
+
+
+.product-text {
+  width: 100%;
+  height: 100px;
+  padding-top: 10px;
+}
+
+.pre-btn,
+.nxt-btn {
+  border: none;
+  width: 10vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+  cursor: pointer;
+  z-index: 8;
+}
+
+.pre-btn {
+  left: 0;
+  transform: rotate(180deg);
+}
+
+.nxt-btn {
+  right: 0;
+}
+
+.pre-btn img,
+.nxt-btn img {
+  opacity: 0.2;
+}
+
+.pre-btn:hover img,
+.nxt-btn:hover img {
+  opacity: 1;
+}
